@@ -1,8 +1,8 @@
 .container {
     display: flex;
     margin-top: 3rem;
-    // border: 1px solid red;
-    justify-content: space-between;
+    border: 1px solid red;
+    margin: auto;
 
     .content {
         // border: 1px solid red;
@@ -70,5 +70,20 @@
 
         }
     }
-}
 
+    @media (max-width:1080px) {
+        flex-direction: column;
+        text-align: center;
+
+        .content {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media (max-width:550px) {
+        .heroImg {
+            grid-template-columns: 1fr;
+        }
+    }
+}

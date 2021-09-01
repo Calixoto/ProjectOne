@@ -1,4 +1,5 @@
 import { ActiveLink } from '../ActiveLink/ActiveLink';
+import { ButtonNav } from '../ButtonNav';
 import { SignInButton } from '../SignInButton';
 import styles from './styles.module.scss';
 
@@ -22,6 +23,7 @@ export function Header() {
                     {/* </ActiveLink> */}
                 </nav>
                 <SignInButton />
+                <ButtonNav />
             </div>
         </header>
     );

@@ -8,13 +8,16 @@
     h2 {
         font-weight: 600;
         font-size: 1.5rem;
+        color: var(--purple-800);
 
         p {
             font-weight: 300;
             font-size: 4.5rem;
+            color: var(--purple-700);
 
             strong {
                 font-weight: 800;
+                color: var(--purple-650);
             }
         }
     }
@@ -40,7 +43,7 @@
         text-align: center;
 
         p {
-            
+            color: var(--purple-800);
             font-size: 1rem;
             font-weight: 400;
 
@@ -57,6 +60,7 @@
             font-weight: 600;
             margin-bottom: 1rem;
             margin-top: -0.65rem;
+            color: var(--purple-650);
             h2 {
                 font-size: 3rem;
                 font-weight: 200;
@@ -80,8 +84,10 @@
         margin-bottom: 0.3rem;
         font-size: 1.25rem;
         font-weight: 400;
+        color: var(--purple-800);
 
         strong {
+            color: var(--purple-650);
             font-size: 3rem;
             font-weight: 600;
         }

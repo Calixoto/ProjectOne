@@ -36,7 +36,6 @@
             width: 30%;
             height: 15rem;
             text-align: left;
-            justify-content: center;
             align-items: center;
             color: var(--white);
 
@@ -52,5 +51,11 @@
                 margin-top: 1.5rem;
             }
         }
+    }
+}
+
+@media (max-width: 720px) {
+    .contentContainer {
+        flex-direction: column;
     }
 }

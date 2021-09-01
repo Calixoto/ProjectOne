@@ -20,10 +20,10 @@ export default function Planos() {
                         <h2>mega</h2>
                     </h1>
                     <span>SA Família</span>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
+                    <p>Fibra Óptica</p>
+                    <p>20MB de Upload</p>
+                    <p>Wifi 100m</p>
+                    <p>Wifi 2.4Ghz/5Ghz</p>
 
                     <h3>R$ <strong>70,00</strong></h3>
                     <SubscribeButton />
@@ -31,31 +31,31 @@ export default function Planos() {
                 <div>
                     <p>plano residencial</p>
                     <h1>
-                        50
+                        70
                         <h2>mega</h2>
                     </h1>
-                    <span>SA Família</span>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
+                    <span>SA Master</span>
+                    <p>Fibra Óptica</p>
+                    <p>20MB de Upload</p>
+                    <p>Wifi 100m</p>
+                    <p>Wifi 2.4Ghz/5Ghz</p>
 
-                    <h3>R$ <strong>70,00</strong></h3>
+                    <h3>R$ <strong>80,00</strong></h3>
                     <SubscribeButton />
                 </div>
                 <div>
                     <p>plano residencial</p>
                     <h1>
-                        50
+                        200
                         <h2>mega</h2>
                     </h1>
-                    <span>SA Família</span>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
+                    <span>SA Ultra</span>
+                    <p>Fibra Óptica</p>
+                    <p>20MB de Upload</p>
+                    <p>Wifi 100m</p>
+                    <p>Wifi 2.4Ghz/5Ghz</p>
 
-                    <h3>R$ <strong>70,00</strong></h3>
+                    <h3>R$ <strong>100,00</strong></h3>
                     <SubscribeButton />
                 </div>
             </section>

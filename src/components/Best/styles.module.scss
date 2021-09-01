@@ -1,5 +1,5 @@
 .container {
-    margin: auto;
+    margin: 0 auto;
     max-width: 1200px;
     height: 250px;
     // border: 1px solid red;
@@ -57,6 +57,18 @@
                 // border: 1px solid blue;
                 margin-left: 0.75rem;
             }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        margin-bottom: 32vw;
+        margin-top: 7vw;
+
+        div {
+            margin-top: 2vw;
         }
     }
 }

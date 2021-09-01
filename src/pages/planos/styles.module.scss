@@ -93,3 +93,17 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    .contentContainer {
+        flex-direction: column;
+
+        div {
+            margin-bottom: 7rem;
+
+            h1 {
+                font-size: 5rem;
+            }
+        }
+    }
+}

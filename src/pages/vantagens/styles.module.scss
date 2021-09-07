@@ -10,13 +10,13 @@
         font-size: 1.125rem;
         font-weight: 600;
         text-transform: uppercase;
-        color: var(--purple-800);
+        color: var(--yellow-500);
 
         p {
             text-transform: none;
             font-size: 3rem;
             font-weight: 600;
-            color: var(--purple-650);
+            color: var(--yellow-300);
         }
     }
 
@@ -44,7 +44,7 @@
             section {
                 &:last-child {
                     display: grid;
-                    background: var(--white-50);
+                    background: var(--gray-850);
                     align-items: center;
                     margin-top: -0.5rem;
                     padding: 1.3rem;
@@ -53,8 +53,9 @@
                     span {
                         font-size: 1rem;
                         font-weight: 400;
-                        color: var(--gray-500);
+                        color: var(--yellow-500);
                         margin-top: 0.7rem;
+
 
                         &:last-child {
                             margin-bottom: 0.7rem;
@@ -66,7 +67,7 @@
     }
 
     .contentMedias {
-        background: var(--white-50);
+        background: var(--gray-850);
         // width:100%;
         max-width: 2000px;
         height: 13rem;
@@ -89,13 +90,13 @@
         font-size: 1.125rem;
         font-weight: 600;
         text-transform: uppercase;
-        color: var(--purple-800);
+        color: var(--yellow-300);
 
         p {
             text-transform: none;
             font-size: 3rem;
             font-weight: 600;
-            color: var(--purple-650);
+            color: var(--yellow-500);
         }
     }
 
@@ -111,17 +112,22 @@
             display: grid;
             margin-right: 7vw;
             padding: 3rem;
-            background: var(--white-50);
+            background: var(--gray-850);
             border-radius: 1.25rem;
+            
 
             h3 {
                 font-size: 1.5rem;
                 font-weight: 300;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
+
+                color: var(--yellow-500);
             }
 
             span {
+                // display: inline-block;
+                color: var(--yellow-700);
                 font-size: 1rem;
                 font-weight: 400;
             }
@@ -134,7 +140,12 @@
         flex-direction: column;
 
         div {
+            margin-top: 1rem;
             margin-left: 7vw;
+
+            &:first-child {
+                margin-top: 0;
+            }
 
             &:last-child {
                 margin-left: 0;
@@ -150,6 +161,21 @@
         div {
             width: 60%;
             margin-bottom: 8vw;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .content{ 
+        div {
+            width: 200px;
+            // border: 1px solid red;
+
+            section {
+                img {
+                    width: 200px;
+                }
+            }
         }
     }
 }

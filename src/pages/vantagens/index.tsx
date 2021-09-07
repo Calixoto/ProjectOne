@@ -15,10 +15,10 @@ export default function Vantagens() {
                             <img src="/images/imgGamer.png" alt="Gamer" />
                         </section>
                         <section>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
+                            <span>Jogue sem lag</span>
+                            <span>Ping baixo e estável</span>
+                            <span>Sem perdas de pacote</span>
+                            <span>Taxa de Upload alta</span>
                         </section>
                     </div>
                     <div>
@@ -27,10 +27,10 @@ export default function Vantagens() {
                             <img src="/images/imgDiversao.png" alt="Diversão" />
                         </section>
                         <section>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
+                            <span>Assista sem travamentos</span>
+                            <span>Assista em várias telas</span>
+                            <span>Assista em alta definição</span>
+                            <span>Assista sem parar</span>
                         </section>
                     </div>
                     <div>
@@ -39,10 +39,10 @@ export default function Vantagens() {
                             <img src="/images/imgHomeOffice.png" alt="Home Office" />
                         </section>
                         <section>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
-                            <span>lorem ipsum dolor</span>
+                            <span>Trabalhe de casa</span>
+                            <span>Sem dor de cabeça</span>
+                            <span>Sem cair durante as reuniões</span>
+                            <span>Mais Dinamico</span>
                         </section>
                     </div>
                 </div>

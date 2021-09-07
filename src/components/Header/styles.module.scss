@@ -18,11 +18,11 @@
             margin: -2.2rem 1rem -2rem;
         }
     
-        p {
-            font-weight: 500;
-            font-size: 2.5rem;
-            color: var(--purple-800);
-        }
+        // p {
+        //     font-weight: 500;
+        //     font-size: 2.5rem;
+        //     color: var(--red-800);
+        // }
     
         nav {
             margin-left: auto;
@@ -33,13 +33,23 @@
                 display: inline-block;
                 position: relative;
                 padding: 0 0.5rem;
-                color: var(--purple-700);
+                color: var(--yellow-500);
                 margin-right: 3rem;
+
+                transition: color 0.2s;
+
+                &:hover {
+                    color: var(--yellow-300);
+                }
             }
         }
     
         .active{
-            color: var(--yellow-300);
+            color: var(--red-400);
+
+            &:hover {
+                color: var(--red-400);
+            }
         }
 
         @media (max-width: 654px) {

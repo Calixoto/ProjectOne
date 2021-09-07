@@ -8,18 +8,25 @@ export function Hero() {
         <>
             <section className={styles.container}>
                 <div className={styles.content}>
-                    <h1>Headlines para <br /> Wireframes Hero</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Dolores hic vel, eligendi maxime atque eos accusantium.</p>
+                    <h1> Acelere sua vida <br /> com Sanet Fibra</h1>
+                    <p>
+                        <span>Ultravelocidade com fibra ótica.</span>
+                        <br />
+                        <span>Internet turbinada.</span>
+                        <br />
+                        <span>Navegue sem dor de cabeça.</span>
+                        <br />
+
+                    </p>
                     <div>
                         <SubscribeButton />
                         {/* <SubscribeButton /> */}
                     </div>
                 </div>
                 <div className={styles.heroImg}>
-                    <img src="/images/heroImg.png" alt="hero" />
-                    <img src="/images/heroImg.png" alt="hero" />
-                    <img src="/images/heroImg.png" alt="hero" />
-                    <img src="/images/heroImg.png" alt="hero" />
+                    <img src="/images/plano1.png" alt="hero" />
+                    <img src="/images/plano2.png" alt="hero" />
+                    <img src="/images/plano3.png" alt="hero" />
                 </div>
             </section>
             <Best />

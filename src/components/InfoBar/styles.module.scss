@@ -1,8 +1,8 @@
 .container {
     margin-top: 4rem;
-    background: var(--purple-400);
+    background: var(--yellow-700);
     display: grid;
-    color: var(--white);
+    color: var(--white-50);
     width: 100%;
 
     section {
@@ -55,6 +55,11 @@
 }
 
 @media (max-width: 720px) {
+    .container {
+        section {
+            flex-direction: column;
+        }
+    }
     .contentContainer {
         flex-direction: column;
     }

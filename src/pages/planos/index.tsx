@@ -31,7 +31,7 @@ export default function Planos() {
                 <div>
                     <p>plano residencial</p>
                     <h1>
-                        70
+                        100
                         <h2>mega</h2>
                     </h1>
                     <span>SA Master</span>

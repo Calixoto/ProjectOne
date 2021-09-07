@@ -1,5 +1,5 @@
 .container {
-    margin: 0 auto;
+    margin: 5rem auto 0 auto;
     max-width: 1200px;
     height: 250px;
     // border: 1px solid red;
@@ -18,14 +18,14 @@
         justify-content: center;
 
         h3 {
-            color: var(--purple-700);
+            color: var(--red-800);
             font-weight: 700;
             font-size: 1.5rem;
             text-transform: uppercase;
         }
 
         p {
-            color: var(--purple-800);
+            color: var(--yellow-500);
             font-size: 1.125rem;
             font-weight: 600;
 
@@ -35,7 +35,7 @@
             // border: 1px solid red;
             width: 4rem;
             height: 4rem;
-            color: var(--purple-400);
+            color: var(--yellow-300);
             margin-bottom: 0.5rem;   
         }
 
@@ -63,12 +63,42 @@
 
 @media (max-width: 480px) {
     .container {
+        height: 600px;
+        width: 250px;
         flex-direction: column;
         margin-bottom: 32vw;
-        margin-top: 7vw;
+        margin-top: 5rem;
 
         div {
-            margin-top: 2vw;
+            margin-top: 1rem;
+            // border: 1px solid red;
+
+            &:first-child {
+                p {
+                    font-size: 2.25rem;
+                }
+            }
+    
+            &:nth-child(3){
+                svg {
+                    // border: 1px solid blue;
+                    margin-left: 1.5rem;
+                }
+            }
+    
+            &:nth-child(4){
+                svg {
+                    // border: 1px solid blue;
+                    margin-left: 1.2rem;
+                }
+            }
+
+            &:nth-child(5){
+                svg {
+                    // border: 1px solid blue;
+                    margin-left: 0.2rem;
+                }
+            }
         }
     }
 }

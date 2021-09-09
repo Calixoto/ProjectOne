@@ -47,14 +47,23 @@
                 color: var(--yellow-50);
             }
 
-            span {
+            a {
                 font-size: 1rem;
                 font-weight: 400;
                 margin-top: 1.5rem;
                 color: var(--yellow-50);
+
+                transition: filter 0.2s;
+                    &:hover {
+                        filter: brightness(0.6);
+                    }
             }
         }
     }
+}
+
+.isMobile {
+    display: none;
 }
 
 @media (max-width: 720px) {
@@ -65,5 +74,13 @@
     }
     .contentContainer {
         flex-direction: column;
+    }
+
+    .isMobile {
+        display: inline-block;
+    }
+
+    .isDesktop {
+        display: none;
     }
 }

@@ -12,10 +12,34 @@
         align-items: center;
         justify-content: space-between;
     
-        img {
-            width: 13rem;
-            height: 13rem;
-            margin: -2.2rem 1rem -2rem;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // border: 1px solid red;
+
+            img {
+                // border: 1px solid red;
+                width: 5rem;
+                height: 5rem;
+                // margin: -2.2rem 1rem -2rem;
+            }
+            
+            strong{
+                margin-top: -0.8rem;
+                // border: 1px solid red;
+                text-align: center;
+                color: var(--yellow-300);
+                font-size: 1.5rem;
+                font-weight: 200;
+
+                p {
+                    // border: 1px solid red;
+                    font-size: 0.4rem;
+                    font-weight: 200;
+                    color: var(--yellow-500);
+                }
+            }
         }
     
         // p {

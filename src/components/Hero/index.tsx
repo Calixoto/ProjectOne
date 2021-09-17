@@ -1,5 +1,7 @@
 import { Best } from '../Best';
+import { MoreInformations } from '../MoreInformations';
 import { SignInButton } from '../SignInButton';
+import Slider from '../Slider';
 import { SubscribeButton } from '../SubscribeButton';
 import styles from './styles.module.scss';
 
@@ -16,17 +18,19 @@ export function Hero() {
                         <br />
                         <span>Navegue sem dor de cabeça.</span>
                         <br />
+                        <span>Qualidade no atendimento</span>
+                        <br />
+                        <span>Mensalidade Fixa</span>
+                        <br />
 
                     </p>
                     <div>
-                        <SubscribeButton />
+                        <MoreInformations />
                         {/* <SubscribeButton /> */}
                     </div>
                 </div>
                 <div className={styles.heroImg}>
-                    <img src="/images/plano1.png" alt="hero" />
-                    <img src="/images/plano2.png" alt="hero" />
-                    <img src="/images/plano3.png" alt="hero" />
+                    <Slider />
                 </div>
             </section>
             <Best />

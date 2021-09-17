@@ -7,7 +7,13 @@ export function Header() {
     return (
         <header className={styles.container}>
             <div className={styles.content}>
-                <img src="/images/logosanet.png" alt="Logo Sanet" />
+                <div>
+                    <img src="/images/logosanetsolo.svg" alt="Logo Sanet" />
+                    <strong>
+                        SANET
+                        <p>PROVEDOR DE INTERNET</p>
+                    </strong>
+                </div>
                 <nav>
                     <ActiveLink activeClassName={styles.active} href="/">
                         <a>Início</a>

@@ -58,30 +58,8 @@
     }
 
     .heroImg {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         margin: auto;
-
-        img {
-            // border: 1px solid red;
-            width: 19.5rem;
-            height: 23.5rem;
-            // margin-right: 1rem;
-
-            &:nth-child(1) {
-                margin-top: 0;
-            }
-
-            &:nth-child(2) {
-                margin-top: 8rem;
-                margin-left: 2rem;
-            }
-
-            &:nth-child(3) {
-                margin-top: -5rem;
-            }
-
-        }
+        margin-top: 4rem;
     }
 
     @media (max-width:1080px) {

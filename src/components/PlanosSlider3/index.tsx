@@ -5,19 +5,8 @@ export default function PlanosSlider3() {
     return (
         <>
             <div className={styles.container}>
-                <p>plano residencial</p>
-                <h1>
-                    200
-                    <h2>mega</h2>
-                </h1>
-                <span>SA Ultra</span>
-                <p>Fibra Óptica</p>
-                <p>20MB de Upload</p>
-                <p>Wifi 100m</p>
-                <p>Wifi 2.4Ghz/5Ghz</p>
-
-                <h3>R$ <strong>100,00</strong></h3>
-                <MoreInformations />
+                <p>Planos que cabem no seu bolso!</p>
+                <img src="/images/propaganda1.svg" alt="propaganda 1" />
             </div>
         </>
     )

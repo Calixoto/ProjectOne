@@ -82,26 +82,5 @@
                 font-size: 93.75%;
             }
         }
-        .heroImg {
-            grid-template-columns: 1fr;
-
-            img {
-                width: 10rem;
-                height: 10rem;
-
-                &:nth-child(1) {
-                    margin-top: 1rem;
-                }
-    
-                &:nth-child(2) {
-                    margin-top: 1rem;
-                    margin-left: 0;
-                }
-    
-                &:nth-child(3) {
-                    margin-top: 1rem;
-                }
-            }
-        }
     }
 }

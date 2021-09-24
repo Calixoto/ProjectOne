@@ -1,6 +1,19 @@
 .container {
     display: flex;
-    width: 22rem;
+    width: 52rem;
     height: 35rem;
     flex: 1;
+}
+
+@media (max-width: 790px) {
+    .container {
+        // display: none;
+        width: 32rem;
+    }
+}
+
+@media (max-width: 455px) {
+    .container {
+        width: 22rem;
+    }
 }

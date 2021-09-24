@@ -3,58 +3,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: white;
-    // background-color: var(--gray-850);
     margin: auto;
     width: 100%;
 
-    p {
-        color: var(--yellow-700);
-        font-size: 1rem;
-        font-weight: 400;
-
-        margin-top: 0.7rem;
-
-        &:first-child{
-        font-size: 0.875rem;
-        font-weight: 600;
-        }
-    }
-
-    h1 {
-        font-size: 9rem;
-        font-weight: 600;
-        margin-bottom: 1rem;
-        margin-top: -0.65rem;
-        color: var(--yellow-300);
-        h2 {
-            font-size: 3rem;
-            font-weight: 200;
-            margin-top: -1rem;
-            text-transform: uppercase;
-        }
-
-        span {
-            font-size: 1.5rem;
-            font-weight: 400;
-            color: var(--red-800);
-            background: var(--yellow-150);
-            border-radius: 0.5rem;
-            padding: 0.1rem 2.2rem;
-        }
-    }
-
-    h3 {
-        margin-top: 0.2rem;
-        margin-bottom: 0.3rem;
-        font-size: 1.25rem;
-        font-weight: 400;
-        color: var(--yellow-700);
-
-        strong {
-            color: var(--yellow-300);
-            font-size: 3rem;
-            font-weight: 600;
-        }
+    img {
+        width: 100%;
     }
 }

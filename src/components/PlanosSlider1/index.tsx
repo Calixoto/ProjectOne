@@ -6,8 +6,7 @@ export default function PlanosSlider() {
         <>
 
             <div className={styles.container}>
-                <p>Você conectado com a Sanet e com o mundo!</p>
-                <img src="/images/propaganda2.svg" alt="propaganda 1" />
+                <img src="/images/propg1.jpeg" alt="propaganda 1" />
             </div>
         </>
     )

@@ -5,8 +5,7 @@ export default function PlanosSlider3() {
     return (
         <>
             <div className={styles.container}>
-                <p>Planos que cabem no seu bolso!</p>
-                <img src="/images/propaganda1.svg" alt="propaganda 1" />
+                <img src="/images/propg3.jpeg" alt="propaganda 1" />
             </div>
         </>
     )

@@ -6,6 +6,7 @@ export default class MyDocument extends Document {
             <Html>
                 <title>Sanet</title>
                 <Head>
+                    <meta name="google-site-verification" content="5aniM9cVheg0GY_YcEgygUWsD1oyo3wHSKIC7zkyI4I" />
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />

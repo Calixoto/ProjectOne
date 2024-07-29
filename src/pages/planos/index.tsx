@@ -16,12 +16,12 @@ export default function Planos() {
         <div>
           <p>plano residencial</p>
           <h1>
-            20
+            30
             <h2>mega</h2>
           </h1>
           <span>SA Família</span>
           <p>Fibra Óptica</p>
-          <p>20MB de Upload</p>
+          <p>30MB de Upload</p>
           <p>Wifi 100m</p>
           <p>Wifi 2.4Ghz/5Ghz</p>
 
@@ -33,12 +33,12 @@ export default function Planos() {
         <div>
           <p>plano residencial</p>
           <h1>
-            40
+            50
             <h2>mega</h2>
           </h1>
           <span>SA Master</span>
           <p>Fibra Óptica</p>
-          <p>20MB de Upload</p>
+          <p>50MB de Upload</p>
           <p>Wifi 100m</p>
           <p>Wifi 2.4Ghz/5Ghz</p>
 
@@ -50,12 +50,12 @@ export default function Planos() {
         <div>
           <p>plano residencial</p>
           <h1>
-            70
+            80
             <h2>mega</h2>
           </h1>
           <span>SA Ultra</span>
           <p>Fibra Óptica</p>
-          <p>20MB de Upload</p>
+          <p>80MB de Upload</p>
           <p>Wifi 100m</p>
           <p>Wifi 2.4Ghz/5Ghz</p>
 
@@ -72,7 +72,7 @@ export default function Planos() {
           </h1>
           <span>SA Ultra</span>
           <p>Fibra Óptica</p>
-          <p>20MB de Upload</p>
+          <p>200MB de Upload</p>
           <p>Wifi 100m</p>
           <p>Wifi 2.4Ghz/5Ghz</p>
 
